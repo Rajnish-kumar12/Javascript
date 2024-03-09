@@ -116,3 +116,50 @@ console.log(typeof x5);
 let x5num = Number(x5);
 console.log(typeof x5);    //converted into number but the value of  the variable is 0.
 console.log(x5num);
+
+
+/* Let's try to connvert all type of primitive datatype which is in js into boolean
+___________________________________________________________________________________
+Number, undefined, null, boolean, symbol, Nan, string*/
+
+let x6 = 5;
+let x6Bool = Boolean(x6);
+console.log(typeof x6Bool);  //converted into boolean but the value is true
+console.log(x6Bool);
+
+let x7 = 0;
+let x7Bool = Boolean(x7);
+console.log(typeof x7Bool);  //converted into boolean but the value is false
+console.log(x7Bool);
+
+let x8 = "Rajnish";
+let x8Bool = Boolean(x8);
+console.log(typeof x8Bool);   //converted into boolean but the value is true
+console.log(x8Bool);
+
+let x9 = "";
+let x9Bool = Boolean(x9);
+console.log(typeof x9Bool);   //converted into boolean but the value is false
+console.log(x9Bool);
+
+let x10 = undefined;
+console.log(typeof x10);
+let x10Bool = Boolean(x10);
+console.log(typeof x10Bool);   //converted into boolean but the value is false
+console.log(x10Bool);
+
+let x11 = null;
+console.log(typeof x11);
+let x11Bool = Boolean(x11);
+console.log(typeof x11Bool);   //converted into boolean but the value is false
+console.log(x11Bool);
+
+
+let x12 = NaN;
+console.log(typeof x12);
+let x12Bool = Boolean(x12);
+console.log(typeof x12Bool);   //converted into boolean but the value is false
+console.log(x12Bool);
+
+/* Note----->>>In JavaScript, NaN is short for "Not-a-Number". In JavaScript, NaN is a number that is not a legal number. 
+               The Global NaN property is the same as the Number. Nan property.*/
