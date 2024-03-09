@@ -74,3 +74,45 @@ if (k === kStr) {
 } else {
     console.log("both are not same");
 }
+
+
+
+/* Let's try to connvert all type of primitive datatype which is in js into number
+___________________________________________________________________________________
+Number, undefined, null, boolean, symbol, Nan, string*/
+
+let str = "Rajnish";
+console.log(typeof str);
+let strnum = Number(str);
+console.log(typeof strnum);  //converted into number but actual value of the variable is not a number(NaN).
+console.log(strnum);
+
+let x1 = undefined;
+console.log(typeof x1);
+let x1num = Number(x1);
+console.log(typeof x1num);  //converted into number but actual value of the variable is not a number(NaN).
+console.log(x1num);
+
+let x2 = NaN;
+console.log(typeof x2);
+let x2num = Number(x2);
+console.log(typeof x2num);   //converted into num but the value of the varibale is not a number(NaN).
+console.log(x2num);
+
+let x3 = null;
+console.log(typeof x3);
+let x3num = Number(x3);
+console.log(typeof x3num);  //converted into number but the value of the variable is 0.
+console.log(x3num);
+
+let x4 = true;
+console.log(typeof x4);
+let x4num = Number(x4);
+console.log(typeof x4num);  //converted into number but the value of the variable is 1.
+console.log(x4num);
+
+let x5 = false;
+console.log(typeof x5);
+let x5num = Number(x5);
+console.log(typeof x5);    //converted into number but the value of  the variable is 0.
+console.log(x5num);
