@@ -1,3 +1,10 @@
+/*Type conversion
+_________________________
+Type conversion(or typecasting) means transfer of data from one data type to another.Implicit conversion happens 
+when the compiler(for compiled languages) or runtime(for script languages like JavaScript) automatically converts data types.
+ source code can also explicitly require a conversion to take place.*/
+
+
 let score = "33";
 console.log(typeof score);
 
